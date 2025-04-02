@@ -32,10 +32,10 @@ Foram geradas e analisadas 300 transações fictícias de 20 clientes diferentes
 ![Distribuição dos valores](Imagens/distribuicao_valores.png)
 
 ### ⚠️ Transações suspeitas por tipo
-![Tipos de suspeita](Imagens/tipos_suspeita.png)
+![Tipos de suspeita](Imagens/transacoes_susp_regra.png)
 
 ### 👥 Top 5 clientes com mais transações suspeitas
-![Top clientes](Imagens/top_clientes.png)
+![Top clientes](Imagens/top5_cliente.png)
 
 -
 
