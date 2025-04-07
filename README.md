@@ -1,20 +1,20 @@
-# 🔍 Estudo Simples de Antifraude com Python
+# 🔍 Anti-Fraud Study with Python
 
-Este é um projeto simples de análise de dados desenvolvido para praticar Python e conceitos básicos de detecção de fraudes bancárias. O projeto simula transações fictícias e aplica regras para identificar comportamentos suspeitos.
-
----
-
-## 🎯 Objetivo
-
-Criar um estudo introdutório de antifraude com Python, analisando transações com base em duas regras simples:
-
-1. **Transações com valor maior que R$ 5.000** são consideradas suspeitas.
-2. **Clientes com mais de 3 transações no mesmo dia** são marcados como suspeitos por frequência.
+This is a simple data analysis project developed to practice Python and basic concepts of bank fraud detection. The project simulates fictional transactions and applies rules to identify suspicious behavior.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🎯 Objective
 
+Create an introductory anti-fraud study using Python, analyzing transactions based on two simple rules:
+
+1 - Transactions over R$ 5,000 are considered suspicious.
+
+2 - Customers with more than 3 transactions on the same day are flagged as suspicious due to frequency.
+
+---
+
+## 🛠️ Technologies Used
 - Python
 - Jupyter Notebook (VSCode)
 - Pandas
@@ -24,17 +24,17 @@ Criar um estudo introdutório de antifraude com Python, analisando transações 
 
 ---
 
-## 📊 Resultados e Visualizações
+## 📊  Results and Visualizations
 
-Foram geradas e analisadas 300 transações fictícias de 20 clientes diferentes. A partir disso, identificamos as transações suspeitas com base nas regras definidas.
+A total of 300 fictional transactions from 20 different customers were generated and analyzed. Based on the defined rules, suspicious transactions were identified.
 
-### 📈 Distribuição dos valores das transações
+### 📈 Transaction Amount Distribution
 ![Distribuição dos valores](Imagens/distribuicao_valores.png)
 
-### ⚠️ Transações suspeitas por tipo
+### ⚠️ Suspicious Transactions by Type
 ![Tipos de suspeita](Imagens/transacoes.png)
 
-### 👥 Top 5 clientes com mais transações suspeitas
+### 👥 Top 5 Customers with the Most Suspicious Transactions
 ![Top clientes](Imagens/top.png)
 
 -
