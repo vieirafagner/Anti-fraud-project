@@ -68,8 +68,8 @@ plt.show()
 
 # Contar quantas transações suspeitas por regra
 tipos_suspeita = {
-    'Valor alto': df['suspeita_valor'].sum(),
-    'Muitas transações no dia': df['suspeita_frequencia'].sum()
+    'High Value': df['suspeita_valor'].sum(),
+    'Many Transactions in a Day': df['suspeita_frequencia'].sum()
 }
 
 plt.figure(figsize=(7, 5))
