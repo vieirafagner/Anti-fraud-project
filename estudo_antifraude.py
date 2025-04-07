@@ -59,9 +59,9 @@ sns.set(style="whitegrid")
 
 plt.figure(figsize=(10, 5))
 sns.histplot(df['valor_transacao'], bins=50, kde=True)
-plt.title('Distribuição dos valores das transações')
-plt.xlabel('Valor da transação (R$)')
-plt.ylabel('Frequência')
+plt.title('Transaction Amount Distribution')
+plt.xlabel('Transaction Amount (R$)')
+plt.ylabel('Frequency')
 plt.savefig('C:\\Users\\55319\\Documents\\antifraude-projeto\\imagens\\distribuicao_valores.png')
 plt.show()
 
@@ -74,9 +74,9 @@ tipos_suspeita = {
 
 plt.figure(figsize=(7, 5))
 sns.barplot(x=list(tipos_suspeita.keys()), y=list(tipos_suspeita.values()))
-plt.title('Transações suspeitas por tipo de regra')
-plt.ylabel('Quantidade de transações')
-plt.xlabel('Tipo de suspeita')
+plt.title('Suspicious Transactions by Rule Type')
+plt.ylabel('Number of transactions')
+plt.xlabel('Suspicion type')
 plt.savefig('C:\\Users\\55319\\Documents\\antifraude-projeto\\imagens\\transacoes.png')
 plt.show()
 
@@ -89,9 +89,9 @@ top_clientes = df_suspeitas['id_cliente'].value_counts().head(5)
 
 plt.figure(figsize=(7, 5))
 sns.barplot(x=top_clientes.index, y=top_clientes.values)
-plt.title('Top 5 clientes com mais transações suspeitas')
-plt.ylabel('Quantidade de transações suspeitas')
-plt.xlabel('ID do cliente')
+plt.title('Top 5 Customers with the Most Suspicious Transactions')
+plt.ylabel('Number of Suspicious Transactions')
+plt.xlabel('Customer ID')
 plt.savefig('C:\\Users\\55319\\Documents\\antifraude-projeto\\imagens\\top.png')
 plt.show()
 
